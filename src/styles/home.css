@@ -1,0 +1,61 @@
+#home-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    gap: 10px;
+}
+
+.home-card {
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+
+    &:nth-child(1):hover {
+        transform: rotate(-3deg) scale(1.1) translateX(-40px) translateY(-10px);
+        margin-bottom: 13px;
+    }
+
+
+    &:nth-child(2) {
+        color: blue;
+        &:hover {
+        transform: rotate(3deg) scale(1.1) translateX(40px) translateY(-10px);
+        margin-bottom: 13px;
+        }
+    }
+
+    &:nth-child(3){
+        color: green;
+        &:hover {
+        transform: rotate(3deg) scale(1.1) translateX(-40px) translateY(10px);
+        margin-top: 13px;
+    }}
+
+    &:nth-child(4) {
+        color: red;
+        &:hover {
+        transform: rotate(-3deg) scale(1.1) translateX(40px) translateY(10px);
+        margin-top: 13px;
+        }
+    }
+}
