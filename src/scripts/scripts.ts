@@ -52,7 +52,7 @@ export const render = (toDos: ToDos[], title: string): void => {
     container.innerHTML = `
               <h3>${title}</h3>
               <p>Parece que você não tem nenhuma tarefa ${title === "Minhas Tarefas" ? "cadastrada" : title === "Tarefas Pendentes" ? "pendente" : "concluída"}...</p>
-              <button><a href="${title === "Minhas tarefas" ? "cadastrartarefa.html" : "minhastarefas.html"}">${ title === "Tarefas Concluídas" ?  "Concluir alguma" : "Cadastrar Agora!"}</a></button>
+              <button><a href="${title === "Minhas Tarefas" ? "cadastrartarefa.html" : "minhastarefas.html"}">${ title === "Tarefas Concluídas" ?  "Concluir alguma" : "Cadastrar Agora!"}</a></button>
             `;
   } else {
     container.innerHTML = `
