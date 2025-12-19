@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc --watch",
+    "clean": "rimraf dist",
+    "build:ts": "tsc",
+    "build:assets": "cpx \"src/index.html\" dist && cpx \"src/styles/**/*\" dist/styles && cpx \"src/pages/**/*\" dist/pages",
+    "build": "npm run clean && npm run build:ts && npm run build:assets"
   },
   "keywords": [],
   "author": "Felipe Ribeiro",
