@@ -26,14 +26,14 @@ No terminal do VSCode com o projeto aberto, digite:
 ```bash
 npm i
 ```
-### 3- Compile o TypeScript
+### 3- Compile o TypeScript e rode o build
 
 No terminal do VS novamente, digite:
 
 ```bash
-npx tsc
+npm run build
 ```
 
 ### 4- Rode o projeto
 
-Use o Live Server ou clique no arquivo home.html e abra no navegador
+Use o Live Server ou abra o arquivo dist/index.html no navegador
