@@ -1,41 +1,41 @@
-Acesse o projeto em: https://felipe-b-ribeiro-todolist-ts-vercel.vercel.app
+Access the project at: https://felipe-b-ribeiro-todolist-ts-vercel.vercel.app
 
-# To Do List em TypeScript
+# To Do List in TypeScript
 
-Projeto simples de **To Do List** desenvolvido em **TypeScript**, com foco em aprimorar o aprendizado no mesmo.
+- A To-Do List project built in TypeScript for improving my skills.
 
 ---
 
-## Como rodar o projeto localmente
+## How to run the project locally?
 
-### 1- Clonar o repositório
+### 1. Clone the repository
 
-No terminal, navegue até o diretório onde deseja salvar o projeto:
+In the git terminal, navigate to the directory where you want to save the project.
 
 ```bash
-cd caminho/onde/quer/salvar/o/projeto
+cd path/where/you/want/to/save/the/project
 ```
 
-Em seguida, clone o repositório:
+Then, clone the repo:
 
 ```bash
 git clone https://github.com/felipe-b-ribeiro/ToDoList-TypeScript
 ```
-### 2- Instalar as dependências
+### 2. Install Dependencies
 
-No terminal do VSCode com o projeto aberto, digite:
+In VS Code terminal with the project open, type:
 
 ```bash
 npm i
 ```
-### 3- Compile o TypeScript e rode o build
+### 3. Compile TypeScript and run the build
 
-No terminal do VS novamente, digite:
+In the same terminal, type:
 
 ```bash
 npm run build
 ```
 
-### 4- Rode o projeto
+### 4. Run the project
 
-Use o Live Server ou abra o arquivo dist/index.html no navegador
+Use Live Server or open the file dist/index.html in your browser.
