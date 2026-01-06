@@ -1,12 +1,21 @@
 Access the project at: https://felipe-b-ribeiro-todolist-ts-vercel.vercel.app
 
+<hr />
+
 # To Do List in TypeScript
 
 - A To-Do List project built in TypeScript for improving my skills.
 
----
+<hr/>
 
-## How to run the project locally?
+<h4> 🧰 Stack: </h4>
+<p>
+    <img src="https://skillicons.dev/icons?i=nodejs,npm,typescript,git,html,css,vscode" />
+</p>
+
+<hr/>
+
+# How to run the project locally?
 
 ### 1. Clone the repository
 
